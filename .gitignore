@@ -1,0 +1,56 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Flutter / Dart / Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+**/.dart_tool/
+**/.flutter-plugins-dependencies
+**/.flutter-plugins
+**/.pub-cache/
+**/.pub/
+**/build/
+**/coverage/
+
+# Android build artifacts & Gradle
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/.gradle/
+**/local.properties
+**/GeneratedPluginRegistrant.java
+
+# iOS artifacts & CocoaPods
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+
+# Backend PHP / Laravel
+**/vendor/
+**/.env
+**/.env.*
+!**/.env.example
+**/public/storage
+**/storage/logs/*.log
+**/.phpunit.result.cache
+check*.txt
+analyze.txt
